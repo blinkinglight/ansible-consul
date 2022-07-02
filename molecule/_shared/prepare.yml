@@ -8,8 +8,3 @@
       package:
         name: unzip
       become: true
-
-    - name: Install netaddr dependency on controlling host
-      pip:
-        name: netaddr
-      become: false
